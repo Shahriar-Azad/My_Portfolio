@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahriar Azad | Portfolio</title>
+  <link rel="icon" type="image/png" href="images/love.png">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  
+
+    
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <div class="logo">SA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/pic.jpeg" alt="Shahriar Azad">
+            </div>
+            <h1>Hey I am Shahriar Azad</h1>
+            <p>FullStack Software Developer</p>
+            <div class="social-links">
+                <a href="https://github.com/Shahriar-Azad" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shahriar--azad/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <br>
+            <br>
+            <div class="mt-4">
+                <a href="resume/resume.pdf" class="btn btn-primary" download><i class="fas fa-download"></i> Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I'm a passionate FullStack Software Developer with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code. With a strong foundation in both frontend and backend development, I strive to build applications that are not only functional but also provide exceptional user experiences.</p>
+        </div>
+    </section>
+
+    <section id="works" class="fade-in">
+        <h2 class="section-title">My Works</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/300x200/6366f1/ffffff?text=Project+1" alt="E-Commerce Platform">
+                </div>
+                <div class="project-details">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce solution built with React and Node.js, featuring payment integration and admin dashboard.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/300x200/8b5cf6/ffffff?text=Project+2" alt="Task Management App">
+                </div>
+                <div class="project-details">
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management application with real-time updates, built using React and Firebase.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/300x200/06b6d4/ffffff?text=Project+3" alt="Weather Dashboard">
+                </div>
+                <div class="project-details">
+                    <h3>Weather Dashboard</h3>
+                    <p>A responsive weather application with location-based forecasts and interactive charts using Chart.js.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/300x200/10b981/ffffff?text=Project+4" alt="Social Media Dashboard">
+                </div>
+                <div class="project-details">
+                    <h3>Social Media Dashboard</h3>
+                    <p>A comprehensive social media management tool with analytics and scheduling features.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/300x200/f59e0b/ffffff?text=Project+5" alt="Portfolio Website">
+                </div>
+                <div class="project-details">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern, responsive portfolio website showcasing my work and skills with smooth animations.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project1.png" alt="Chat Application">
+                </div>
+                <div class="project-details">
+                    <h3>ChatByte</h3>
+                    <p>Real-time chat application with everyone, active status, image sharing, and emoji support using Socket.io.
+        
+                    </p>
+                    <p>Tech Stack used: React.js, Node.js, Express.js, MongoDB, Cloudinary, DaisyUI</p>
+                    <div class="project-buttons">
+                        <a href="https://chatbyte-6zan.onrender.com/" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="https://github.com/Shahriar-Azad/ChatByte" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" height="50" />
+      </div>
+      <div class="skill-name">Python</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" height="50" />
+      </div>
+      <div class="skill-name">JavaScript</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" height="50" />
+      </div>
+      <div class="skill-name">TypeScript</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" height="50" />
+      </div>
+      <div class="skill-name">React.js</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" height="50" />
+      </div>
+      <div class="skill-name">Next.js</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" height="50" />
+      </div>
+      <div class="skill-name">Node.js</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" height="50" />
+      </div>
+      <div class="skill-name">MongoDB</div>
+    </div>
+
+<div class="skill-item">
+  <div class="skill-icon">
+    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" height="50" />
+  </div>
+  <div class="skill-name">Tailwind CSS</div>
+</div>
+
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="MaterialUI" height="50" />
+      </div>
+      <div class="skill-name">MaterialUI</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" height="50" />
+      </div>
+      <div class="skill-name">Git</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" height="50" style="filter: invert(1);" />
+      </div>
+      <div class="skill-name">GitHub</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" height="50" />
+      </div>
+      <div class="skill-name">PostgreSql</div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" height="50" />
+      </div>
+      <div class="skill-name">Postman</div>
+    </div>
+
+    <div class="skill-item">
+  <div class="skill-icon">
+    <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="Framer" height="50" />
+  </div>
+  <div class="skill-name">Framer</div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-icon">
+    <img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" alt="Vercel" height="50" />
+  </div>
+  <div class="skill-name">Vercel</div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-icon">
+    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/render.svg" alt="Render" height="50" style="filter: invert(1);" />
+  </div>
+  <div class="skill-name">Render</div>
+</div>
+
+
+
+
+  </div>
+</section>
+
+
+    <section id="contact" class="fade-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form" onsubmit="sendEmail(event)">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Shahriar Azad. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
